@@ -1,0 +1,66 @@
+/* COMMON */
+.menu {
+    font-size: 18px;
+    padding: 10px 0;
+    line-height: normal;
+}
+
+.menu .chevron {
+    font-size: 10px;
+    margin-left: -3px;
+}
+
+/* HEADER */
+header .menu ul {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+header .menu li {
+    display: inline-block;
+}
+
+header .menu li a {
+    list-style-type: none;
+    font-size: 13px;
+    color: black;
+    font-weight: 400;
+}
+
+.text-left li {
+    margin-right: 20px;
+}
+
+.text-right li {
+    margin-left: 18px;
+}
+
+.menu img {
+    width: 130px;
+}
+
+.button_menu {
+    color: #006aff;
+    border: 1px solid #006aff;
+    background-color: white;
+}
+
+.burger {
+    color: #006aff;
+}
+
+/* MAIN */
+.back-jumbo {
+    background-image: url("../img/ms-jumbo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 200px;
+}
+
+h1 {
+    color: white;
+    font-size: 52px;
+}
