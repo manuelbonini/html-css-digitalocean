@@ -267,3 +267,99 @@ h1 {
 .position-circle div:first-child {
     background-color: #006aff;
 }
+
+@media screen and (max-width: 767px) { /* per togliere le freccie ai lati */
+    .chevron-left, .chevron-right {
+      display: none;
+    }  
+}
+
+/* feature and business */
+.fifth-section h2 {
+    padding-bottom: 20px;
+}
+
+.fifth-section p {
+    font-size: 13px;
+    color: #5c6a88;
+}
+
+/* service */
+.sixth-section {
+    background-color: #0044c2;
+    color: white;
+}
+
+.sixth-section h2 {
+    padding-bottom: 20px;
+    color: white;
+}
+
+.sixth-section a {
+    color: #00d7d2;
+}
+
+.col-padding {
+    margin-right: 15px;
+    margin-left: 15px;    
+}
+
+.col-padding [class*="col-"] {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid white;
+}
+
+.col-padding .row:last-child [class*="col-"] {
+    border-bottom: 0;
+}
+
+.col-padding:last-child {
+    padding-top: 20px;
+}
+
+.box-rocket {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.seventh-section .box-rocket p {
+    color: #5c6a88;
+    font-size: 20px;
+}
+
+.seventh-section p.dark {
+    color: #031c4e;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.seventh-section #co-founder {
+    font-size: 14px;
+}
+
+.box-rocket img {
+    padding-top: 50px;
+}
+
+.seventh-section .box-circle {
+    padding-top: 20px;
+}
+
+/* eighth section  */
+.eighth-section {
+    background-color: #0030a9;
+}
+
+.eighth-section h2 {
+    color: white;
+}
+
+.eighth-section .button-starter {
+    color: #006aff;
+}
